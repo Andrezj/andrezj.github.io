@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "predeploy": "yarn run build",
+  "deploy": "gh-pages -b master -d build",
+}
