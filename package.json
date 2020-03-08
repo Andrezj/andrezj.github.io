@@ -1,0 +1,8 @@
+{
+  "predeploy": "yarn run build",
+  "deploy": "gh-pages -b master -d build",
+  "homepage": "https://Andrezj.github.io/",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
